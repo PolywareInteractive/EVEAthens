@@ -27,7 +27,7 @@ div.menu {
     margin-left: auto;
     margin-right: auto;
     margin-top: 35px;
-
+    
 }
 
 ul.menu-items {
@@ -139,4 +139,16 @@ img.center {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+
+img.left {
+	display: block;
+	margin-right: auto;
+	margin-left: 0;
+}
+
+img.right {
+	display: block;
+	margin-right: 0;
+	margin-left: auto;
 }

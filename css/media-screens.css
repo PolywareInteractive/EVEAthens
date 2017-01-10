@@ -9,3 +9,43 @@
 	}
 
 }
+
+@media screen and (max-width: 1030px) {
+	
+	div.block {
+		width: 80%;
+	}
+
+	div.block-header {
+		width: 80%;
+	}
+
+}
+
+@media screen and (max-width: 845px) {
+	
+	div.block {
+		width: 90%;
+	}
+
+	div.block-header {
+		width: 90%;
+	}
+
+}
+
+@media screen and (max-width: 815px) {
+	
+	div.right img {
+		width: 99%;
+	}
+
+	div.left img {
+		width: 99%;
+	}
+
+	ul.menu-items {
+		font-size: 130%;
+	}
+
+}
