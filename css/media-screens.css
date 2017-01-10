@@ -1,0 +1,11 @@
+@media screen and (max-width: 1280px) {
+	
+	div.block {
+		width: 70%;
+	}
+
+	div.block-header {
+		width: 70%;
+	}
+
+}
