@@ -8,6 +8,10 @@ a {
 	text-decoration: none;
 }
 
+div.block a {
+	color: #EF7E2D;
+}
+
 .content {
 	height: 2000px;
 	background-image: url('../images/poster-figure.png');
