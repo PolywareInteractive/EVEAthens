@@ -1,7 +1,8 @@
-$(document).on('click', '.displayLegalNotice', function(e) {
+$(document).on('click', 'a[class=navigation]', function(e) {
 	e.preventDefault();
-	console.log('clicks');
-	$('.legal-notice').show(function() {
-		window.location.hash = '#legal-notice-anchor';
-	});
+	
+	var location = $(this).data('location');
+
+	$('html,body').animate({ scrollTop: $("#"+location).offset().top}, 'slow');
+	
 });

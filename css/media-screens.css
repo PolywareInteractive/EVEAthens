@@ -48,4 +48,24 @@
 		font-size: 130%;
 	}
 
+	div.logo img {
+		width: 95%;
+	}
+
+}
+
+@media screen and (max-width: 560px) {
+
+	ul.menu-items li {
+		margin: 1px;
+	}
+
+}
+
+@media screen and (max-width: 470px) {
+
+	ul.menu-items {
+		font-size: 15px;
+	}
+
 }
